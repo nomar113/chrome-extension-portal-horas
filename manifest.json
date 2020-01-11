@@ -1,0 +1,16 @@
+{
+    "name": "Auto complete Portal Horas Stefanini",
+    "version": "1.0",
+    "description": "Auto complete informations on 'http://portalhoras.stefanini.com/main.html'",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://portalhoras.stefanini.com/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
